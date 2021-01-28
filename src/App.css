@@ -184,6 +184,7 @@ p.blue {
 }
 p.sumDeets {
   margin-left: 15px;
+  color: #0F1A4F;
 }
 img.oc {
   width: 21px;
@@ -342,13 +343,14 @@ span.dot {
   transform: rotate(45deg);
 }
 .rest {
-  padding: 10px 25px;
+  padding: 20px 25px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(183, 183, 183, 0.25);
 }
 .listCont {
   box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
+  margin-bottom: 150px;
 }
 span.drop {
   color: #0052CC;
@@ -363,11 +365,11 @@ p.nameData {
 }
 p.stateL {
   color: #25213B;
-  font-size: 14px;
+  font-size: 15px;
 }
 p.spec {
   color: #878592;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 5px;
 }
 p.noIssue {
@@ -399,6 +401,7 @@ p.topEnt {
 }
 .lowRisk {
   color: #3AB65C;
+  align-items: center;
 }
 .highRisk {
   color: #B63A3A;
@@ -424,4 +427,10 @@ button.more:hover {
 }
 button.more:active {
   transform: scale(1.2);
+}
+.imgRze {
+  height: 18px;
+}
+.imgRzer {
+  height: 12px;
 }

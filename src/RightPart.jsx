@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 class RightPart extends Component {
-    state = {  }
     render() { 
         return (  
             <div>
@@ -8,7 +7,7 @@ class RightPart extends Component {
                     <div className="top">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="alpha"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -37,7 +36,7 @@ class RightPart extends Component {
                     <div className="rest">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="box"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -63,7 +62,7 @@ class RightPart extends Component {
                         <div className="risk">
                             <div className="risked lowRisk">
                                 <span className="arrW">
-                                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611844161/arrdown_ixbvks.svg" draggable="false" alt="arr"/>
+                                    <img className="imgRzer" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611844161/arrdown_ixbvks.svg" draggable="false" alt="arr"/>
                                 </span>
                                 <p className="rskLvl">Low Risk</p>
                             </div>
@@ -77,7 +76,7 @@ class RightPart extends Component {
                     <div className="rest">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="box"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -103,7 +102,7 @@ class RightPart extends Component {
                         <div className="risk">
                             <div className="risked midRisk">
                                 <span className="arrW">
-                                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/rihgt_arr_uff5rw.svg" draggable="false" alt="arr"/>
+                                    <img className="imgRze" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/rihgt_arr_uff5rw.svg" draggable="false" alt="arr"/>
                                 </span>
                                 <p className="rskLvl">Mid Risk</p>
                             </div>
@@ -117,7 +116,7 @@ class RightPart extends Component {
                     <div className="rest">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="box"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -143,7 +142,7 @@ class RightPart extends Component {
                         <div className="risk">
                             <div className="risked midRisk">
                                 <span className="arrW">
-                                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/rihgt_arr_uff5rw.svg" draggable="false" alt="arr"/>
+                                    <img className="imgRze" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/rihgt_arr_uff5rw.svg" draggable="false" alt="arr"/>
                                 </span>
                                 <p className="rskLvl">Mid Risk</p>
                             </div>
@@ -157,7 +156,7 @@ class RightPart extends Component {
                     <div className="rest">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="box"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -183,7 +182,7 @@ class RightPart extends Component {
                         <div className="risk">
                             <div className="risked highRisk">
                                 <span className="arrW">
-                                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/arrUp_nvbgzk.svg" draggable="false" alt="arr"/>
+                                    <img className="imgRze" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/arrUp_nvbgzk.svg" draggable="false" alt="arr"/>
                                 </span>
                                 <p className="rskLvl">High Risk</p>
                             </div>
@@ -197,7 +196,7 @@ class RightPart extends Component {
                     <div className="rest">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="box"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -223,7 +222,7 @@ class RightPart extends Component {
                         <div className="risk">
                             <div className="risked lowRisk">
                                 <span className="arrW">
-                                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611844161/arrdown_ixbvks.svg" draggable="false" alt="arr"/>
+                                    <img className="imgRzer" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611844161/arrdown_ixbvks.svg" draggable="false" alt="arr"/>
                                 </span>
                                 <p className="rskLvl">Low Risk</p>
                             </div>
@@ -237,7 +236,7 @@ class RightPart extends Component {
                     <div className="rest">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="box"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -263,7 +262,7 @@ class RightPart extends Component {
                         <div className="risk">
                             <div className="risked highRisk">
                                 <span className="arrW">
-                                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/arrUp_nvbgzk.svg" draggable="false" alt="arr"/>
+                                    <img className="imgRze" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/arrUp_nvbgzk.svg" draggable="false" alt="arr"/>
                                 </span>
                                 <p className="rskLvl">High Risk</p>
                             </div>
@@ -277,7 +276,7 @@ class RightPart extends Component {
                     <div className="rest">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="box"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -303,7 +302,7 @@ class RightPart extends Component {
                         <div className="risk">
                             <div className="risked midRisk">
                                 <span className="arrW">
-                                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/rihgt_arr_uff5rw.svg" draggable="false" alt="arr"/>
+                                    <img className="imgRze" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611846310/rihgt_arr_uff5rw.svg" draggable="false" alt="arr"/>
                                 </span>
                                 <p className="rskLvl">Mid Risk</p>
                             </div>
@@ -317,7 +316,7 @@ class RightPart extends Component {
                     <div className="rest">
                         <div className="checkbox">
                             <label className="container">
-                                <input type="checkbox"/>
+                                <input type="checkbox" id="box"/>
                                 <span className="checkmark"></span>
                             </label>
                         </div>
@@ -343,7 +342,7 @@ class RightPart extends Component {
                         <div className="risk">
                             <div className="risked lowRisk">
                                 <span className="arrW">
-                                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611844161/arrdown_ixbvks.svg" draggable="false" alt="arr"/>
+                                    <img className="imgRzer" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1611844161/arrdown_ixbvks.svg" draggable="false" alt="arr"/>
                                 </span>
                                 <p className="rskLvl">Low Risk</p>
                             </div>
