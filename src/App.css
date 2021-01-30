@@ -174,7 +174,7 @@ p.dHead {
   font-weight: bold;
 }
 p.blue {
-  color: #5771EE;
+  color: #5771EE !important;
   border-bottom: 2px solid #5771EE;
 }
 .phone, .mail, .location, .journal, .print {
